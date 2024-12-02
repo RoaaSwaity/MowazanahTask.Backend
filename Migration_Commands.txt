@@ -1,0 +1,10 @@
+//Ref To Data Project 
+
+//Add
+dotnet ef migrations add InitialCreate --startup-project ../Api
+
+//Update 
+dotnet ef database update --startup-project ../Api
+
+//Remove
+dotnet ef migrations remove --startup-project ../Api
